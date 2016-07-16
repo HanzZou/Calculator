@@ -12,6 +12,7 @@
 		BF92E6B41D36226100E2195D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF92E6B21D36226100E2195D /* Main.storyboard */; };
 		BF92E6B61D36226100E2195D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF92E6B51D36226100E2195D /* Assets.xcassets */; };
 		BF92E6B91D36226100E2195D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF92E6B71D36226100E2195D /* LaunchScreen.storyboard */; };
+		BF92E6C21D38E63E00E2195D /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF92E6C11D38E63E00E2195D /* CalculatorBrain.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		BF92E6B51D36226100E2195D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF92E6B81D36226100E2195D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BF92E6BA1D36226100E2195D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF92E6C11D38E63E00E2195D /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		BF92E6AD1D36226100E2195D /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				BF92E6C11D38E63E00E2195D /* CalculatorBrain.swift */,
 				BF92E6B01D36226100E2195D /* ViewController.swift */,
 				BF92E6B21D36226100E2195D /* Main.storyboard */,
 				BF92E6C01D3629E600E2195D /* Supporting Files */,
@@ -144,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF92E6C21D38E63E00E2195D /* CalculatorBrain.swift in Sources */,
 				BF92E6B11D36226100E2195D /* ViewController.swift in Sources */,
 				BF92E6AF1D36226100E2195D /* AppDelegate.swift in Sources */,
 			);
@@ -303,6 +307,7 @@
 				BF92E6BF1D36226100E2195D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
